@@ -1,11 +1,24 @@
 """
-Name(s):
-Name of Project:
+Name(s):Wazz Oppenheiwmew
+Name of Project:Count
 """
 
 #Write the main part of your program here. Use of the other pages is optional.
 
-#import page1  # uncomment if you're using page1
-#import page2  # uncomment if you're using page2
-#import page3  # uncomment if you're using page3
-#import page4  # uncomment if you're using page4
+num = int(input("Count up from 1 to 100:"))
+if num == 1 :
+  num += 1
+  num2 = int(input("Good continue:"))
+  while num2 == num :
+    num2 = int(input("Good continue:"))
+    num += 1
+    if num == 100:
+      print("Congratulations you did it!")
+  if num2 == 420:
+    print("Ha Ha. Start over")
+  elif num2 == 715: 
+    print("Beanis Wenis")
+  else :
+    print ("Nice try, start over though.")
+else:
+  print("wow...you messed up already")
